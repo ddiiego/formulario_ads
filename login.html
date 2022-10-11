@@ -8,8 +8,24 @@
 </head>
 <body>
     <h1>Área Restrita</h1>
-    <table border="1">
-        
-    </table>
+    <form action="cadastro.html" name="formLogin" method="post">
+        <table border="1">
+            <tr>
+                <td><label>Usuário:</label></td>
+                <td><input type="text" name="usuario"></td>
+            </tr>
+            <tr>
+                <td><label>Senha:</label></td>
+                <td><input type="password" name="senha"></td>
+            </tr>
+            <tr>
+                <td><button type="submit">Novo Usuário</button></td>
+                <td><input type="button" value="entrar"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><a href="#">Esqueci a senha</a></td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
